@@ -61,7 +61,7 @@ define([
 
         var inArguments = hasInArguments ? payload['arguments'].execute.inArguments : {};
 
-	    console.log('hasInArguments'+hasInArguments);
+	    console.log(hasInArguments);
 	    //console.log(payload['arguments'].execute.inArguments);
         console.log(inArguments);
 
