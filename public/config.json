@@ -18,8 +18,8 @@
            "inArguments":[
 				{
                     "Title": "Title Name",
-		    "Data": {{PushyAPIDictionary.Data}},
-		    "DeviceToken": "{{PushyAPIDictionary.DeviceToken}}"
+		    "Data": "{{PushyAPIDictionary.Data}}",
+		    "DeviceToken": "{{Contact.Attribute.PushyAPIDictionary.DeviceToken}}"
                 }									
 			],
           "outArguments": [],
