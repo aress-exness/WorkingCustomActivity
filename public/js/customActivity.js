@@ -92,7 +92,7 @@ define([
 
         payload['arguments'].execute.inArguments = [{
             "tokens": authTokens,
-            "Title": "{{PushyAPIDictionary.Title}}",
+            "Title": "Title Name",
 		    "Data": "{{PushyAPIDictionary.Data}}",
 		    "DeviceToken": "{{PushyAPIDictionary.DeviceToken}}"
         }];
