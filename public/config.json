@@ -17,9 +17,9 @@
         "execute": {
            "inArguments":[
 				{
-                    'Title': 'Title Name',
-		    'Data': '{{PushyAPIDictionary.Data}}',
-		    'DeviceToken': '{{Contact.Attribute.pushyJourney.DeviceToken}}'
+                    "Title": "Title Name",
+		    "Data": "{{PushyAPIDictionary.Data}}",
+		    "DeviceToken": "{{Contact.Attribute.pushyJourney.DeviceToken}}"
                 }									
 			],
           "outArguments": [],
