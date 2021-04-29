@@ -91,10 +91,10 @@ define([
         var postcardTextValue = $('#postcard-text').val();
 
         payload['arguments'].execute.inArguments = [{
-            "tokens": authTokens,
-            "Title": "Title Name",
-		    "Data": "{{PushyAPIDictionary.Data}}",
-		    "DeviceToken": "{{Contact.Attribute.pushyJourney.DeviceToken}}"
+            'tokens': authTokens,
+            'Title': 'Title Name',
+		    'Data': '{{PushyAPIDictionary.Data}}',
+		    'DeviceToken': '{{Contact.Attribute.pushyJourney.DeviceToken}}'
         }];
 	          
         payload['metaData'].isConfigured = true;
