@@ -94,7 +94,7 @@ define([
             "tokens": authTokens,
             "Title": "Title Name",
 		    "Data": "{{PushyAPIDictionary.Data}}",
-		    "DeviceToken": "{{Contact.Attribute.PushyAPIDictionary.DeviceToken}}"
+		    "DeviceToken": "{{Contact.Attribute.PushyAPIDictionary}}"
         }];
 	          
         payload['metaData'].isConfigured = true;
