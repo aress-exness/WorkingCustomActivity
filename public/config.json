@@ -18,7 +18,7 @@
            "inArguments":[
 				{
                     "Title": "Title Name",
-		    "Data": "{{PushyAPIDictionary.Data}}",
+		    "Data": {{PushyAPIDictionary.Data}},
 		    "DeviceToken": "{{PushyAPIDictionary.DeviceToken}}"
                 }									
 			],
