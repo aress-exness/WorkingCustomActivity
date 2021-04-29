@@ -92,9 +92,9 @@ define([
 
         payload['arguments'].execute.inArguments = [{
             "tokens": authTokens,
-            "Title": "{{Contact.Attribute.pushyJourney.PushyAPIDictionary.Title}}",
-		    "Data": "{{Contact.Attribute.pushyJourney.PushyAPIDictionary.Data}}",
-		    "DeviceToken": "{{Contact.Attribute.pushyJourney.PushyAPIDictionary.DeviceToken}}"
+            "Title": "{{PushyAPIDictionary.Title}}",
+		    "Data": "{{PushyAPIDictionary.Data}}",
+		    "DeviceToken": "{{PushyAPIDictionary.DeviceToken}}"
         }];
 	          
         payload['metaData'].isConfigured = true;
